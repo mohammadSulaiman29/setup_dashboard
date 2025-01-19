@@ -1,0 +1,21 @@
+{
+  "name": "mohammad_sulaiman/dashboard_setup",
+  "description": "A library for setting up a Laravel dashboard, creating language switch middleware, routes, controllers, and language files.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "DashboardSetup\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mohammad Sulaiman",
+      "email": "mohammadsuliman355@gmail.com"
+    }
+  ],
+  "extra": {},
+  "require": {
+    "php": ">=8.0"
+  }
+}

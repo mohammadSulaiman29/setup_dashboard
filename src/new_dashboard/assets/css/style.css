@@ -1,0 +1,568 @@
+.search_inputs {
+    height: 43px;
+    border-radius: 20px;
+}
+
+.search_inputs::placeholder {
+    padding-right: 20px;
+
+}
+
+.alert_class {
+    height: 60px;
+}
+
+/* Change the background color of the Select2 input */
+.select2-container--default .select2-selection--single {
+    background-color: #f8f9fa;
+    height: 40px;
+    padding: 5px;
+    padding-right: 9px
+}
+
+/* Change the color of selected option */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+    direction: ltr;
+
+}
+
+/* Style the dropdown list */
+.select2-results__option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    height: 30px;
+    /* margin-right:34%;     */
+}
+
+.logout-button:hover {
+    color: var(--bs-dropdown-link-hover-color);
+    text-decoration: none;
+    background-color: var(--bs-dropdown-link-hover-bg);
+    cursor: pointer;
+}
+
+.btn_first_row {
+    margin-top: 25px;
+}
+
+
+/* new ************************************** */
+.search_inputs {
+    height: 43px;
+    border-radius: 20px;
+}
+
+.search_inputs::placeholder {
+    padding-right: 20px;
+
+}
+
+.alert_class {
+    height: 60px;
+}
+
+/* Change the background color of the Select2 input */
+.select2-container--default .select2-selection--single {
+    background-color: #f8f9fa;
+    height: 40px;
+    padding: 5px;
+    padding-right: 9px
+}
+
+/* Change the color of selected option */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+    direction: ltr;
+
+}
+
+/* Style the dropdown list */
+.select2-results__option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    height: 30px;
+    /* margin-right:34%;     */
+}
+
+.logout-button:hover {
+    color: var(--bs-dropdown-link-hover-color);
+    text-decoration: none;
+    background-color: var(--bs-dropdown-link-hover-bg);
+    cursor: pointer;
+}
+
+.btn_first_row {
+    margin-top: 25px;
+}
+
+/**********************************/
+:root {
+    --blue: #7dbbd8;
+    --light-blue: #7dbbd833;
+}
+
+/* table{
+background-color: rgb(255, 255, 255);
+box-shadow: 7px 3px 8px 3px #cfcfcf;
+}
+.tr-bg-color{
+ background-color: rgba(178, 196, 199, 0.2);
+} 
+.table-bordered>:not(caption)>*>* {
+border: 1px solid #cfcfcf;    
+} */
+
+/* tables-style */
+.search_inputs {
+    height: 43px;
+    border-radius: 20px;
+}
+
+.search_inputs::placeholder {
+    padding-right: 20px;
+
+}
+
+.alert_class {
+    height: 60px;
+}
+
+/* Change the background color of the Select2 input */
+.select2-container--default .select2-selection--single {
+    background-color: #f8f9fa;
+    height: 40px;
+    padding: 5px;
+    padding-right: 9px
+}
+
+/* Change the color of selected option */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+    direction: ltr;
+
+}
+
+/* Style the dropdown list */
+.select2-results__option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    height: 30px;
+    /* margin-right:34%;     */
+}
+
+.logout-button:hover {
+    color: var(--bs-dropdown-link-hover-color);
+    text-decoration: none;
+    background-color: var(--bs-dropdown-link-hover-bg);
+    cursor: pointer;
+}
+
+.btn_first_row {
+    margin-top: 25px;
+}
+
+/**********************************/
+:root {
+    --blue: #7dbbd8;
+    --light-blue: #7dbbd833;
+}
+
+/* animations */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* --------- */
+/* table{
+background-color: rgb(255, 255, 255);
+box-shadow: 7px 3px 8px 3px #cfcfcf;
+}
+.tr-bg-color{
+ background-color: rgba(178, 196, 199, 0.2);
+} 
+.table-bordered>:not(caption)>*>* {
+border: 1px solid #cfcfcf;    
+} */
+
+/* tables-style */
+
+table {
+    background-color: rgba(125, 187, 216, 0.03);
+    box-shadow: 7px 3px 8px 3px rgb(125, 187, 216, .3);
+    margin-top: 20px;
+    vertical-align: middle !important;
+}
+
+th{
+    background-color: rgba(125, 187, 216, 0.15)!important;
+   }
+
+.table-bordered>:not(caption)>*>* {
+    border: 1px solid rgb(207, 207, 207, .6) !important;
+}
+
+/* --------- */
+
+/* breadcrumb-style */
+
+.page-title {
+    border: 2px solid var(--blue);
+    background-color: var(--light-blue);
+}
+
+.breadcrumb {
+    margin-bottom: 0rem !important;
+    font-size: 16px !important;
+}
+
+/* -------- */
+
+/* ---button-style--- */
+.btn-style {
+    position: relative;
+    border: 2px solid var(--blue);
+
+    font-size: 18px;
+
+    padding: 0.47rem 0.75rem;
+    /* margin-bottom: 20px; */
+    border-radius: 0.25rem;
+    text-align: center;
+    vertical-align: middle;
+
+    letter-spacing: 2px;
+
+    backdrop-filter: blur(2px);
+    transition: all 1000ms;
+    overflow: hidden;
+}
+
+.btn-style::before {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    content: "";
+    width: 0;
+    height: 100%;
+    backdrop-filter: blur(4px);
+
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 900ms;
+}
+
+.btn-style:hover::before {
+    width: 250%;
+}
+
+/* create-btn */
+.create-btn {
+    background-color: rgb(125, 187, 216, .8);
+    color: #fff;
+    width: 300px;
+}
+
+.create-btn:hover {
+    background-color: #fff;
+    color: rgb(125, 187, 216);
+    transform: scale(1.05);
+}
+
+/* ------- */
+
+/* back-btn */
+.back-btn {
+    background-color: #fff;
+    color: rgb(125, 187, 216);
+    -webkit-box-shadow: inset 0 0 30px rgb(125, 187, 216, .02);
+    -moz-box-shadow: inset 0 0 30px rgb(125, 187, 216, 0.5);
+    box-shadow: inset 0 0 30px rgb(125, 187, 216, .6);
+    width: 300px;
+
+}
+
+.back-btn:hover {
+    background-color: rgb(125, 187, 216, .8);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.bi-arrow-right::before {
+    animation: slide 1.4s infinite !important;
+}
+
+/* ------- */
+
+/* edit-btn */
+.edit-btn {
+    color: #fdcb6e;
+    border: 1px solid #fdcb6e;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 0.47rem 0.75rem;
+}
+
+.edit-btn:hover {
+    color: #fff;
+    background-color: #fdcb6e;
+}
+
+/* ------ */
+
+/* delete-btn */
+.delete-btn {
+    color: #ff7675;
+    border: 1px solid #ff7675;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 0.47rem 0.75rem;
+
+}
+
+.delete-btn:hover {
+    color: #fff;
+    background-color: #ff7675;
+}
+
+/* ------ */
+
+/* show-btn */
+.show-btn {
+    color: #55efc4;
+    border: 1px solid #55efc4;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 0.47rem 0.75rem;
+}
+
+.show-btn:hover {
+    color: #fff;
+    background-color: #55efc4;
+}
+
+/* form-style */
+#search_by_text {
+    width: 180px;
+    background-position: 10px 10px;
+    transition: width 0.4s ease-in-out;
+    padding: 0.47rem 0.75rem;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-gray-700);
+    background-color: var(--bs-custom-white);
+    background-clip: padding-box;
+    border: 1px solid var(--bs-input-border-color);
+    padding: 10px;
+}
+
+#search_by_text:focus {
+    width: 70%;
+    outline: none;
+
+}
+
+label {
+    margin-left: 4px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+input[type="text"] {
+    padding: 12px;
+}
+
+form-select:active {
+    box-shadow: none !important;
+}
+
+option:hover {
+    background-color: #333 !important;
+}
+
+/* -------- */
+/* body[data-sidebar=dark] .mm-active>a{
+        color: blue !important;
+        } */
+/* .mm-active>a {
+        border-bottom: 2px solid rgb(125, 187, 216);
+      } */
+/* .simplebar-mask{
+        background-color: rgb(14, 87, 139,0.5) !important;
+    } */
+
+.logo {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* footer */
+footer a{
+    margin: 30px;
+}
+footer a:hover{
+    scale: 1.13;
+}
+footer a i{
+    font-size: 22px;
+    margin-right: 10px;
+    padding-top: 30px;
+    color: rgba(72, 181, 228, 0.8);
+}
+
+
+/* ------------ */
+/* notification*/
+.bi-bell-fill::before{
+    color:rgb(12, 128, 179) ;
+    animation: vibrate 1.4s infinite !important; 
+}
+/* ----------- */
+@keyframes vibrate {
+    0% {
+      transform: rotate(20deg);
+    }
+    25% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
+  }
+
+  /* ToDo-list style */ 
+  #my-list ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    color: rgb(163, 168, 196);
+    /* background: #eee; */
+    font-size: 24px;
+    transition: 0.2s;
+  
+    list-style-type: circle;
+    list-style-position: inside;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Darker background-color on hover */
+  #my-list ul li:hover {
+    background: #e7e6e6;
+  }
+  
+  /* When clicked on, add a background color and strike out text */
+  #my-list ul li.checked{
+    /* background: #888; */
+    /* color: #fff; */
+    text-decoration: line-through;
+    list-style: revert;
+    list-style-position: inside;
+    color: rgba(12, 93, 179, 0.5);
+    
+  }
+ 
+  /* Style the close button */
+  #my-list .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  #my-list .close:hover {
+    background-color: rgba(12, 93, 179, 0.5);
+    color: white;
+  }
+  
+  /* Style the header */
+   .header {
+    background-color:rgba(12, 93, 179, 0.8);
+    padding: 30px 40px;
+    color: white;
+  }
+  
+  /* Clear floats after the header */
+ .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /**********/
+  
+  
+
+  .content{
+    max-width: 700px; 
+  }
+  .list-btn {
+    font-size: 30px;
+  }
+  .list-btn:focus{
+  border: none ;
+    
+  }
+  #my-list ul{
+   padding: 40px 80px; 
+  }
+  .collapse{
+    background-color: var(--bs-custom-white);
+    margin-top: 40px;
+  }
+  #my-list .add-task-btn{
+    color: #fff;
+    background-color: rgba(12, 93, 179, 0.8);
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 10px 40px;
+    font-size: 25px;
+    box-shadow: 4px 10px 30px -4px rgb(12, 93, 179,0.8);
+  }
